@@ -10,7 +10,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Chairs',
     russianCategory: 'Кресла',
     price: 125000,
-    imageUrl: '/src/assets/images/olive_leather_chair_1779270207979.png',
+    imageUrl: '/assets/images/olive_leather_chair_1779270207979.png',
     features: [
       'Итальянская кожа Palazzo (оливковый оттенок)',
       'Эргономичная поддержка осанки 4D',
@@ -38,7 +38,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Chairs',
     russianCategory: 'Стулья и Кресла',
     price: 58000,
-    imageUrl: '/src/assets/images/blue_ergonomic_chair_1779270230212.png',
+    imageUrl: '/assets/images/blue_ergonomic_chair_1779270230212.png',
     features: [
       'Небесно-голубая экокожа класса Soft-Touch',
       'Анатомически выверенная поддержка спины',
@@ -64,7 +64,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: 'Sofas',
     russianCategory: 'Диваны',
     price: 310000,
-    imageUrl: '/src/assets/images/minimalist_sofa_1779270251685.png',
+    imageUrl: '/assets/images/minimalist_sofa_1779270251685.png',
     features: [
       'Фактурный гипоаллергенный букле-шелк',
       'Усиленный сосновый брус в основе каркаса',
