@@ -1,0 +1,6 @@
+{
+  "name": "Мебель от Руслана",
+  "description": "Презентация премиальной мебели ручной работы с интерактивной страницей товаров, админ-панелью для управления каталогом и PRD-документом.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
