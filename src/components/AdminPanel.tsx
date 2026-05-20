@@ -29,7 +29,7 @@ export default function AdminPanel({
   const [price, setPrice] = useState(85000);
   const [description, setDescription] = useState('');
   const [russianDescription, setRussianDescription] = useState('');
-  const [selectedImagePreset, setSelectedImagePreset] = useState('/src/assets/images/olive_leather_chair_1779270207979.png');
+  const [selectedImagePreset, setSelectedImagePreset] = useState('/assets/images/olive_leather_chair_1779270207979.png');
 
   // Dynamic interactive Callouts helper state of the adding product
   const [tempCallouts, setTempCallouts] = useState<ProductCallout[]>([
@@ -324,9 +324,9 @@ export default function AdminPanel({
                 </label>
                 <div className="grid grid-cols-3 gap-2">
                   {[
-                    { path: '/src/assets/images/olive_leather_chair_1779270207979.png', label: 'Оливковое Кресло' },
-                    { path: '/src/assets/images/blue_ergonomic_chair_1779270230212.png', label: 'Голубой Aero' },
-                    { path: '/src/assets/images/minimalist_sofa_1779270251685.png', label: 'Диван «Nube»' },
+                    { path: '/assets/images/olive_leather_chair_1779270207979.png', label: 'Оливковое Кресло' },
+                    { path: '/assets/images/blue_ergonomic_chair_1779270230212.png', label: 'Голубой Aero' },
+                    { path: '/assets/images/minimalist_sofa_1779270251685.png', label: 'Диван «Nube»' },
                   ].map((preset) => (
                     <div
                       key={preset.path}
